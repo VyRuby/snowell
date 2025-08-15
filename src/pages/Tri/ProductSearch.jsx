@@ -1,6 +1,35 @@
-
 import React, { useState } from 'react';
 import productsData from '../../data/products.json';
+
+// Helper to handle Google Drive links & relative/local paths
+const getImageUrl = (imagePath) => {
+  if (!imagePath) return '/placeholder.jpg';
+
+  // If already full URL and NOT Google Drive
+  if (imagePath.startsWith('http') && !imagePath.includes('drive.google.com')) {
+    return imagePath;
+  }
+
+  // Detect Google Drive link
+  if (imagePath.includes('drive.google.com')) {
+    let fileId = '';
+
+    // Format 1: /file/d/FILE_ID/view
+    const match1 = imagePath.match(/\/d\/([^/]+)\//);
+    if (match1) fileId = match1[1];
+
+    // Format 2: id=FILE_ID
+    const match2 = imagePath.match(/id=([^&]+)/);
+    if (!fileId && match2) fileId = match2[1];
+
+    if (fileId) {
+      return `https://drive.google.com/uc?export=view&id=${fileId}`;
+    }
+  }
+
+  // Assume relative path → public/images
+  return `/${imagePath}`;
+};
 
 const ProductSearch = ({ products, onViewDetails }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -25,9 +54,9 @@ const ProductSearch = ({ products, onViewDetails }) => {
 
   return (
     <div>
-      {/* Bộ lọc theo status/ tìm kiếm theo tên */}
+      {/* Filters */}
       <div className="d-flex justify-content-between align-items-center mb-3 flex-wrap">
-        {/* Lọc All/Newest/Best Sellers */}
+        {/* Status Filter */}
         <div className="mb-2 mb-md-0">
           <button
             className={`btn rounded-pill me-2 ${statusFilter === 'All' ? 'btn-primary' : 'btn-outline-primary'}`}
@@ -76,7 +105,7 @@ const ProductSearch = ({ products, onViewDetails }) => {
           <div key={product.id} className="col-12 col-sm-6 col-md-4">
             <div className="card h-100 text-center">
               <img
-                src={product.image}
+                src={getImageUrl(product.image)}
                 alt={product.name}
                 className="card-img-top p-3"
                 style={{ height: '150px', objectFit: 'contain' }}

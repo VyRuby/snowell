@@ -1,18 +1,37 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
+// Same Google Drive / relative image handler
+const getImageUrl = (imagePath) => {
+  if (!imagePath) return '/placeholder.jpg';
+
+  if (imagePath.startsWith('http') && !imagePath.includes('drive.google.com')) {
+    return imagePath;
+  }
+
+  if (imagePath.includes('drive.google.com')) {
+    let fileId = '';
+    const match1 = imagePath.match(/\/d\/([^/]+)\//);
+    if (match1) fileId = match1[1];
+    const match2 = imagePath.match(/id=([^&]+)/);
+    if (!fileId && match2) fileId = match2[1];
+    if (fileId) {
+      return `https://drive.google.com/uc?export=view&id=${fileId}`;
+    }
+  }
+
+  return `/${imagePath}`;
+};
+
 export default function ProductDetails({ product, onClose }) {
   if (!product) return null;
 
-  // Function to format key names for display (e.g., 'battery_life' -> 'Battery Life')
-  const formatKey = (key) => {
-    return key
+  const formatKey = (key) =>
+    key
       .split('_')
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ');
-  };
 
-  // Function to render value based on its type
   const renderValue = (value) => {
     if (Array.isArray(value)) {
       return (
@@ -49,7 +68,7 @@ export default function ProductDetails({ product, onClose }) {
                   <Carousel.Item key={idx}>
                     <img
                       className="d-block w-100"
-                      src={`/${img}`}
+                      src={getImageUrl(img)}
                       alt={`Slide ${idx}`}
                       style={{ height: "300px", objectFit: "contain" }}
                     />
@@ -59,7 +78,7 @@ export default function ProductDetails({ product, onClose }) {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={product.image || "/placeholder.jpg"}
+                    src={getImageUrl(product.image)}
                     alt="Product"
                     style={{ height: "300px", objectFit: "contain" }}
                   />
@@ -82,14 +101,14 @@ export default function ProductDetails({ product, onClose }) {
                     </tr>
                   );
                 })}
-                {product.details && Object.keys(product.details).length > 0 && (
+                {product.details && Object.keys(product.details).length > 0 &&
                   Object.entries(product.details).map(([key, value], idx) => (
                     <tr key={`details-${idx}`}>
                       <th>{formatKey(key)}</th>
                       <td>{renderValue(value)}</td>
                     </tr>
                   ))
-                )}
+                }
               </tbody>
             </table>
           </div>
