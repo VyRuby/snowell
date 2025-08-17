@@ -8,7 +8,7 @@
     "wattage": "10W",
     "stock": 120,
     "description": "Energy-saving warm white LED bulb for home lighting.",
-    "image": "https://drive.google.com/uc?export=view&id=1gC87z1xVmDmYySh9xkfFhN0elOAYwMkw",
+    "image": "https://i.ibb.co/xqk0nXmT/LED-001.jpg",
     "status": "Best Sellers"
   },
   {
@@ -20,7 +20,7 @@
     "wattage": "20W",
     "stock": 60,
     "description": "High-intensity LED floodlight for outdoor use.",
-    "image": "images/ledfloodlight1.jpg",
+    "image": "https://i.ibb.co/wrWNDvBG/LED-002.jpg",
     "status": "Newest"
   },
   {
@@ -36,7 +36,7 @@
     ],
     "stock": 75,
     "description": "Flexible LED strip light with multiple color options.",
-    "image": "images/ledstrip1.jpg",
+    "image": "https://i.ibb.co/YTNSpxjy/LED-003.jpg",
     "status": "Best Sellers"
   },
   {
@@ -52,7 +52,7 @@
     ],
     "stock": 50,
     "description": "Smart LED panel light with adjustable brightness.",
-    "image": "images/smartledpanel1.jpg",
+    "image": "https://i.ibb.co/WpysYL8c/LED-004.jpg",
     "status": "Newest"
   },
   {
@@ -64,7 +64,7 @@
     "wattage": "13W",
     "stock": 100,
     "description": "Compact spiral CFL bulb for energy-efficient lighting.",
-    "image": "images/ecocflbulb1.jpg",
+    "image": "https://i.ibb.co/4Zg4zJg5/CFL-002.jpg",
     "status": "Best Sellers"
   },
   {
@@ -76,7 +76,7 @@
     "wattage": "15W",
     "stock": 80,
     "description": "Efficient CFL bulb with soft white light for everyday use.",
-    "image": "images/cflbulb1.jpg",
+    "image": "https://i.ibb.co/p6jLBtF2/CFL-001.png",
     "status": "Newest"
   },
   {
@@ -91,7 +91,7 @@
     ],
     "stock": 20,
     "description": "Stylish ceiling fan with energy-efficient motor.",
-    "image": "images/ceilingfan1.jpg",
+    "image": "https://i.ibb.co/SDYqdMC6/FAN-100.jpg",
     "status": "Best Sellers"
   },
   {
@@ -107,7 +107,7 @@
     ],
     "stock": 45,
     "description": "Slim design tower fan with quiet operation.",
-    "image": "images/towerfan1.jpg",
+    "image": "https://i.ibb.co/9kFLySTn/FAN-101.jpg",
     "status": "Newest"
   },
   {
@@ -123,7 +123,7 @@
     ],
     "stock": 30,
     "description": "Portable evaporative fan for cooling in dry climates.",
-    "image": "images/acfan1.jpg",
+    "image": "https://i.ibb.co/7t5yHRvW/FAN-102.jpg",
     "status": "Newest"
   },
   {
@@ -138,7 +138,7 @@
     ],
     "stock": 50,
     "description": "Adjustable pedestal fan with powerful airflow.",
-    "image": "images/standingfan1.jpg",
+    "image": "https://i.ibb.co/r1CJQmw/FAN-103.png",
     "status": "Best Sellers"
   },
   {
@@ -150,7 +150,7 @@
     "power": "2000W",
     "stock": 25,
     "description": "Oil-filled radiator heater for efficient heating.",
-    "image": "images/oilheater1.jpg",
+    "image": "https://i.ibb.co/Dg7nSkwY/HT-300.jpg",
     "status": "Best Sellers"
   },
   {
@@ -162,7 +162,7 @@
     "power": "1500W",
     "stock": 35,
     "description": "Portable ceramic heater with adjustable thermostat.",
-    "image": "images/ceramicheater1.jpg",
+    "image": "https://i.ibb.co/7ddN6YGH/HT-301.jpg",
     "status": "Best Sellers"
   },
   {
@@ -174,7 +174,7 @@
     "power": "1200W",
     "stock": 40,
     "description": "Compact space heater with safety shut-off.",
-    "image": "images/spaceheater1.jpg",
+    "image": "https://i.ibb.co/CpH9r2g8/HT-302.jpg",
     "status": "Best Sellers"
   },
   {
@@ -190,13 +190,13 @@
     ],
     "stock": 60,
     "description": "Compact handheld vacuum for spot cleaning.",
-    "image": "images/handheldvac1.jpg",
+    "image": "https://i.ibb.co/spmbSWwv/VC-401.jpg",
     "status": "Newest"
   }, 
   {
     "category": "Vacuum Cleaner",
     "type": "Cordless",
-    "id": "VC-404",
+    "id": "VC-402",
     "name": "PowerVac Upright Vacuum",
     "price": 199.99,
     "features": [
@@ -206,13 +206,13 @@
     ],
     "stock": 20,
     "description": "Powerful upright vacuum for deep cleaning.",
-    "image": "images/uprightvac1.jpg",
+    "image": "https://i.ibb.co/zV4qC2Gz/VC-402.jpg",
     "status": "Best Sellers"
   },
   {
     "category": "Vacuum Cleaner",
     "type": "Handheld",
-    "id": "VC-402",
+    "id": "VC-404",
     "name": "CleanSweep Canister Vacuum",
     "price": 129.99,
     "features": [
@@ -221,7 +221,7 @@
     ],
     "stock": 30,
     "description": "Versatile canister vacuum for all floor types.",
-    "image": "images/canistervac1.jpg",
+    "image": "https://i.ibb.co/Dgw8RgWz/VC-404.jpg",
     "status": "Best Sellers"
   },
   {
@@ -237,7 +237,7 @@
     ],
     "stock": 15,
     "description": "Intelligent robot vacuum for automated cleaning.",
-    "image": "images/robotvac1.jpg",
+    "image": "https://i.ibb.co/4nCf8QnR/VC-403.jpg",
     "status": "Newest"
   },
   {
@@ -252,7 +252,7 @@
     ],
     "stock": 25,
     "description": "Lightweight cordless stick vacuum for everyday use.",
-    "image": "images/cordlessvac1.jpg",
+    "image": "https://i.ibb.co/cKpDRW2y/VC-405.jpg",
     "status": "Best Sellers"
   },
   {

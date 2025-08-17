@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import productsData from "../../data/products.json";
 import ProductDetails from "../../pages/Tri/ProductDetails";
 
@@ -33,7 +33,7 @@ function BestSeller() {
               src={product.image}
               className="card-img-top"
               alt={product.name}
-              style={{ height: "150px", objectFit: "cover" }}
+              style={{ height: "150px", objectFit: "contain" }}
             />
             <div className="card-body">
               <h6 className="card-title">{product.name}</h6>
