@@ -8,7 +8,7 @@ const ContactInfo = () => {
       <p>
         <FaMapMarkerAlt className="me-2 text-primary" />
         <strong>Address:</strong><br />
-        20 Nguyen Trai, P12, Q5, HCM city
+        365 Nguyen Trai, Ho Chi Minh city
       </p>
 
       <p>

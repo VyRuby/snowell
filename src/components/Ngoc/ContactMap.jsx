@@ -18,7 +18,7 @@ const Map = () => {
     }
   }, []);
 
-  const mapUrl = `https://maps.google.com/maps?q=${position.lat},${position.lng}&z=15&output=embed`;
+  const mapUrl = "https://maps.google.com/maps?q=365 Nguyen Trai, Q5, Ho Chi Minh City&z=15&output=embed";
 
   return (
     <div className="mt-3">

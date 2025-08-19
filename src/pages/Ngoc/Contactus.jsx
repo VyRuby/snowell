@@ -3,10 +3,6 @@ import ContactForm from "../../components/Ngoc/ContactForm";
 import ContactInfo from "../../components/Ngoc/ContactInfo";
 import Map from "../../components/Ngoc/ContactMap";
 
-const title = {
-    margin: '1rem 4rem ',
-};
-
 function ContactUs() {
     return (
         <>
