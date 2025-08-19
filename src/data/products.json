@@ -21,7 +21,7 @@
     "stock": 60,
     "description": "High-intensity LED floodlight for outdoor use.",
     "image": "https://i.ibb.co/wrWNDvBG/LED-002.jpg",
-    "status": "Newest"
+    "status": ""
   },
   {
     "category": "LED and Lightning",
@@ -37,7 +37,7 @@
     "stock": 75,
     "description": "Flexible LED strip light with multiple color options.",
     "image": "https://i.ibb.co/YTNSpxjy/LED-003.jpg",
-    "status": "Best Sellers"
+    "status": ""
   },
   {
     "category": "LED and Lightning",
@@ -53,7 +53,7 @@
     "stock": 50,
     "description": "Smart LED panel light with adjustable brightness.",
     "image": "https://i.ibb.co/WpysYL8c/LED-004.jpg",
-    "status": "Newest"
+    "status": "Best Sellers"
   },
   {
     "category": "LED and Lightning",
@@ -65,7 +65,7 @@
     "stock": 100,
     "description": "Compact spiral CFL bulb for energy-efficient lighting.",
     "image": "https://i.ibb.co/4Zg4zJg5/CFL-002.jpg",
-    "status": "Best Sellers"
+    "status": "Newest"
   },
   {
     "category": "LED and Lightning",
@@ -77,7 +77,7 @@
     "stock": 80,
     "description": "Efficient CFL bulb with soft white light for everyday use.",
     "image": "https://i.ibb.co/p6jLBtF2/CFL-001.png",
-    "status": "Newest"
+    "status": ""
   },
   {
     "category": "Fan",
@@ -92,7 +92,7 @@
     "stock": 20,
     "description": "Stylish ceiling fan with energy-efficient motor.",
     "image": "https://i.ibb.co/SDYqdMC6/FAN-100.jpg",
-    "status": "Best Sellers"
+    "status": ""
   },
   {
     "category": "Fan",
@@ -124,7 +124,7 @@
     "stock": 30,
     "description": "Portable evaporative fan for cooling in dry climates.",
     "image": "https://i.ibb.co/7t5yHRvW/FAN-102.jpg",
-    "status": "Newest"
+    "status": ""
   },
   {
     "category": "Fan",
@@ -151,7 +151,7 @@
     "stock": 25,
     "description": "Oil-filled radiator heater for efficient heating.",
     "image": "https://i.ibb.co/Dg7nSkwY/HT-300.jpg",
-    "status": "Best Sellers"
+    "status": ""
   },
   {
     "category": "Heater",
@@ -175,7 +175,7 @@
     "stock": 40,
     "description": "Compact space heater with safety shut-off.",
     "image": "https://i.ibb.co/CpH9r2g8/HT-302.jpg",
-    "status": "Best Sellers"
+    "status": ""
   },
   {
     "category": "Vacuum Cleaner",
@@ -191,7 +191,7 @@
     "stock": 60,
     "description": "Compact handheld vacuum for spot cleaning.",
     "image": "https://i.ibb.co/spmbSWwv/VC-401.jpg",
-    "status": "Newest"
+    "status": ""
   }, 
   {
     "category": "Vacuum Cleaner",
@@ -305,7 +305,7 @@
     "stock": 50,
     "description": "Compact air purifier for small spaces.",
     "image": "https://i.ibb.co/Lzh92Wwh/AP-503.png",
-    "status": "Best Sellers"
+    "status": ""
   },
   {
     "category": "Geysers",
@@ -319,7 +319,7 @@
     "stock": 20,
     "description": "Compact instant geyser for quick hot water.",
     "image": "https://i.ibb.co/PZbwZYh4/GY-601.jpg",
-    "status": "Best Sellers"
+    "status": "Newest"
   },
   {
     "category": "Geysers",
@@ -333,7 +333,7 @@
     "stock": 15,
     "description": "High-capacity instant geyser for larger households.",
     "image": "https://i.ibb.co/B2xSC0r2/GY-602.jpg",
-    "status": "Newest"
+    "status": ""
   },
   {
     "category": "Kitchen Appliances",
@@ -352,7 +352,7 @@
     "stock": 50,
     "description": "High-power blender for smoothies and more.",
     "image": "https://i.ibb.co/bYtCSdQ/Home-Kitchen-App.jpg",
-    "status": "Newest"
+    "status": "Best Sellers"
   },
   {
     "category": "Kitchen Appliances",
@@ -386,7 +386,7 @@
     "stock": 65,
     "description": "Compact toaster with adjustable browning control.",
     "image": "https://i.ibb.co/pBBK6pvH/CA-704.jpg",
-    "status": "Best Sellers"
+    "status": ""
   },
   {
     "category": "Kitchen Appliances",
@@ -402,7 +402,7 @@
     "stock": 55,
     "description": "Automatic rice cooker with keep warm function.",
     "image": "https://i.ibb.co/Pzwdy2tw/CA-705.jpg",
-    "status": "Newest"
+    "status": ""
   },
   {
     "category": "Kitchen Appliances",
@@ -418,6 +418,6 @@
     "stock": 30,
     "description": "Compact microwave oven with multiple cooking modes.",
     "image": "https://i.ibb.co/7N4fC1L1/ca-706.jpg",
-    "status": "Best Sellers"
+    "status": ""
   }
 ]

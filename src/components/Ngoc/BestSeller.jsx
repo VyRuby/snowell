@@ -21,7 +21,7 @@ function BestSeller() {
   }
 
   return (
-    <div className="container my-5">
+    <div>
       <div className="d-flex overflow-auto" style={{ gap: "15px" }}>
         {bestSellers.map(product => (
           <div
@@ -29,6 +29,15 @@ function BestSeller() {
             className="card"
             style={{ minWidth: "200px", flex: "0 0 auto" }}
           >
+            {/* Badge chỉ hiện khi status là Best Sellers */}
+            {product.status?.toLowerCase().trim() === "best sellers" && (
+              <span
+                className="badge bg-danger position-absolute"
+                style={{ top: "10px", left: "10px" }}
+              >
+                Best Seller
+              </span>
+              )}
             <img
               src={product.image}
               className="card-img-top"

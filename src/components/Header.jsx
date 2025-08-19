@@ -21,7 +21,7 @@ function Header() {
 
   // Danh sách menu
   const navItems = [
-    { to: "/", label: "Home" },
+    { to: "/snowell", label: "Home" },
     {
       to: "/Products",
       label: "Products",
@@ -58,7 +58,7 @@ function Header() {
       <nav className="navbar navbar-expand-lg navbar-light px-4 container py-3">
         {/* Logo + Toggle */}
         <div className="d-flex w-25 justify-content-between align-items-center">
-          <Link to="/">
+          <Link to="/snowell">
             <img
               src={process.env.PUBLIC_URL + "/img/Logo.png"}
               alt="Snowell Electric"

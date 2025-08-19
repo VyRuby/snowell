@@ -75,7 +75,26 @@ const ProductSearch = ({ products, onViewDetails }) => {
       <div className="row g-3">
         {filteredProducts.map(product => (
           <div key={product.id} className="col-12 col-sm-6 col-md-4">
-            <div className="card h-100 text-center">
+             <div className="card h-100 text-center position-relative">
+              
+              {/* Badge động */}
+              {product.status?.toLowerCase().includes('best sellers') && (
+                <span
+                  className="badge bg-danger position-absolute"
+                  style={{ top: '10px', left: '10px', zIndex: 10 }}
+                >
+                  Best Seller
+                </span>
+              )}
+              {product.status?.toLowerCase().includes('newest') && (
+                <span
+                  className="badge bg-success position-absolute"
+                  style={{ top: '10px', left: '10px', zIndex: 10 }}
+                >
+                  New
+                </span>
+              )}
+
               <img
                 src={product.image}
                 alt={product.name}
