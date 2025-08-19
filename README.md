@@ -24,7 +24,7 @@ Click below to view the live version of our website:
 
 
 ## 🎥DEMONSTRATION VIDEO
-👉 [Watch here](#) *(the video hasn't been available yet)*  
+👉 [Watch here](https://youtu.be/LPmjEzHJLKs)
 
 
 ## 📌PROJECT OVERVIEW
