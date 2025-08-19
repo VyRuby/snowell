@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/snowell/static/css/main.1c6cc986.css",
-    "main.js": "/snowell/static/js/main.108b3980.js",
+    "main.js": "/snowell/static/js/main.71d28459.js",
     "static/js/453.01a50b0a.chunk.js": "/snowell/static/js/453.01a50b0a.chunk.js",
     "index.html": "/snowell/index.html",
     "main.1c6cc986.css.map": "/snowell/static/css/main.1c6cc986.css.map",
-    "main.108b3980.js.map": "/snowell/static/js/main.108b3980.js.map",
+    "main.71d28459.js.map": "/snowell/static/js/main.71d28459.js.map",
     "453.01a50b0a.chunk.js.map": "/snowell/static/js/453.01a50b0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c6cc986.css",
-    "static/js/main.108b3980.js"
+    "static/js/main.71d28459.js"
   ]
 }
