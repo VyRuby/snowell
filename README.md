@@ -14,7 +14,7 @@ Nguyen Huu Tri - Student1637704
 
 The full project report is available here:  
 
-👉 [Snowell Electric Report](https://drive.google.com/file/d/1wF5kh41Uo3wWbb-dd0pXStcLud5K716D/view?usp=sharing)
+👉 [Snowell Electric Report](https://drive.google.com/file/d/1nqbrt4FiCyM2UMrB2UffMy9IQZsdHez0/view?usp=sharing)
 
 
 ## 🌐 LIVE WEBSITE
