@@ -26,6 +26,7 @@ const Products = () => {
   const [selected, setSelected] = useState({});
   const [filteredProducts, setFilteredProducts] = useState(productsData);
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const [showCategories, setShowCategories] = useState(false); // 👈 NEW: toggle state
 
   useEffect(() => {
     if (categoryFromUrl) {
@@ -123,9 +124,23 @@ const Products = () => {
 
   return (
     <div className="container my-5">
+      {/* Mobile Toggle Button */}
+      <div className="d-md-none mb-3 text-center">
+        <button
+          className="btn btn-outline-primary"
+          onClick={() => setShowCategories((prev) => !prev)}
+        >
+          {showCategories ? "Hide Filters ▲" : "Show Filters ▼"}
+        </button>
+      </div>
+
       <div className="row g-4">
         {/* Sidebar */}
-        <div className="col-12 col-md-4 col-lg-3">
+        <div
+          className={`col-12 col-md-4 col-lg-3 ${
+            showCategories ? "d-block" : "d-none d-md-block"
+          }`}
+        >
           <h3>Product Categories</h3>
           <ul className="list-unstyled">
             {categories.map((cat) => (
