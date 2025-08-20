@@ -21,7 +21,7 @@ function Footer() {
                     {/* Contact Info */}
                     <div className="col-12 col-md-4 text-center text-md-start">
                         <p className="mb-1 fw-bold"><FaMapMarkerAlt className="me-2" />Address:</p>
-                        <p className="mb-1">20 Nguyen Trai, P12, Q5, HCM</p>
+                        <p className="mb-1">365 Nguyen Trai, Ho Chi Minh city</p>
 
                         <p className="mb-1 fw-bold"><FaPhoneAlt className="me-2" />Hotline:</p>
                         <p className="mb-1">1900 4593</p>

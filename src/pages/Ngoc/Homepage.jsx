@@ -14,7 +14,7 @@ function Homepage() {
                     <HomeBanner />
                 </div>
                 <section className="container my-5">
-                    <h4 className="mb-4">Category</h4>
+                    <h4 >Category</h4>
                     <HomeProductList />
                 </section>
 
